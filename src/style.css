@@ -1,0 +1,102 @@
+/* FUENTE PIXEL */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fef0a5; /* Fondo amarillo claro */
+  width: 100%;
+  height: 100%;
+}
+
+/* FONDO CON NUBES, IMAGEN PLACEHOLDER */
+body.app-bg {
+  background: #fef0a5 url("assets/clouds_placeholder.png") center / cover no-repeat;
+  /* Ajusta la ruta o repite la imagen (repeat) si prefieres */
+}
+
+.window-frame {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+.egg-and-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+/* TIPOGRAFÍA Y ASPECTO PIXEL */
+.pixel-font {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: #5a4735;
+}
+
+.small-title {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* NÚMERO GRANDE PARA EL CONTADOR */
+.timer-number {
+  font-size: 32px;
+  margin-top: 0.5rem;
+}
+
+/* BOTONES CON ESTILO PIXEL */
+.pixel-btn {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  background-color: #ffe0b2;
+  color: #5a4735;
+  border: 2px solid #d69f5c;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+/* OPCIONES DE HUEVO EN EL GRID */
+.grid-eggs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.egg-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff9d9;
+  border: 2px solid #d69f5c;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.pixel-img {
+  image-rendering: pixelated;  /* Para que se vea pixelado */
+  width: 64px;
+  height: 64px;
+}
+
+.option-text {
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+/* SECCIÓN DE BOTONES FINALES (SNOOZE, CLOSE) */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+

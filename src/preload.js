@@ -1,0 +1,2 @@
+
+console.log("PRELOAD.JS CARGADO"); // MENSAJE DE PRUEBA !E

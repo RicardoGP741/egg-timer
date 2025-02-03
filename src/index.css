@@ -1,0 +1,79 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffefa3;
+  color: #333;
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.header-container {
+  background-color: #ffd87d;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #d69f5c;
+}
+
+.header-container h2 {
+  font-size: 16px;
+  color: #5a4735;
+}
+
+.shrink-close-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.shrink-icon,
+.close-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.egg-type-selection {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.egg-button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #fff9d9;
+  border: 2px solid #d69f5c;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  color: #5a4735;
+}
+
+.timer-display {
+  margin-top: 2rem;
+  font-size: 24px;
+  text-align: center;
+  color: #5a4735;
+}
+
+.pixel-img {
+  image-rendering: pixelated;
+  width: 64px;
+  height: 64px;
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', cursive;
+  color: #5a4735;
+}
